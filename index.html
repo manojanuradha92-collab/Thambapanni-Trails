@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thambapanni Trails - Discover the Soul of Sri Lanka</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <i class="fas fa-mountain"></i>
+                <span>Thambapanni Trails</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#destinations" class="nav-link">Destinations</a></li>
+                <li><a href="#packages" class="nav-link">Packages</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Discover the Soul of Sri Lanka</h1>
+            <p class="hero-subtitle">From misty mountains to golden shores, embark on a journey that transcends the ordinary</p>
+            <div class="hero-buttons">
+                <button class="cta-btn primary-btn" data-action="book">Book Your Adventure</button>
+                <button class="cta-btn secondary-btn" data-action="custom">Plan Your Custom Trip</button>
+            </div>
+        </div>
+        <video autoplay muted loop class="hero-video">
+            <source src="assets/hero-background.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <!-- Featured Destinations -->
+    <section id="destinations" class="destinations">
+        <div class="container">
+            <h2 class="section-title">Featured Destinations</h2>
+            <p class="section-subtitle">Explore the hidden gems and natural wonders of paradise</p>
+
+            <div class="destinations-grid">
+                <!-- Destination 1: Mountains -->
+                <div class="destination-card">
+                    <div class="destination-image">
+                        <img src="assets/mountains.jpg" alt="Central Highlands">
+                        <div class="destination-overlay">
+                            <i class="fas fa-mountain"></i>
+                        </div>
+                    </div>
+                    <div class="destination-content">
+                        <h3>Central Highlands</h3>
+                        <p>Experience the misty mountains, ancient tea plantations, and breathtaking panoramic views</p>
+                        <div class="destination-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Kandy, Nuwara Eliya</span>
+                            <span><i class="fas fa-calendar"></i> 3-5 Days</span>
+                        </div>
+                        <button class="explore-btn">Explore</button>
+                    </div>
+                </div>
+
+                <!-- Destination 2: Beaches -->
+                <div class="destination-card">
+                    <div class="destination-image">
+                        <img src="assets/beaches.jpg" alt="Golden Shores">
+                        <div class="destination-overlay">
+                            <i class="fas fa-water"></i>
+                        </div>
+                    </div>
+                    <div class="destination-content">
+                        <h3>Golden Shores</h3>
+                        <p>Relax on pristine beaches, enjoy water sports, and witness stunning sunsets</p>
+                        <div class="destination-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Mirissa, Arugambe</span>
+                            <span><i class="fas fa-calendar"></i> 3-4 Days</span>
+                        </div>
+                        <button class="explore-btn">Explore</button>
+                    </div>
+                </div>
+
+                <!-- Destination 3: Culture -->
+                <div class="destination-card">
+                    <div class="destination-image">
+                        <img src="assets/culture.jpg" alt="Cultural Triangle">
+                        <div class="destination-overlay">
+                            <i class="fas fa-gopuram"></i>
+                        </div>
+                    </div>
+                    <div class="destination-content">
+                        <h3>Cultural Triangle</h3>
+                        <p>Discover ancient temples, archaeological wonders, and rich spiritual heritage</p>
+                        <div class="destination-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Sigiriya, Polonnaruwa</span>
+                            <span><i class="fas fa-calendar"></i> 2-3 Days</span>
+                        </div>
+                        <button class="explore-btn">Explore</button>
+                    </div>
+                </div>
+
+                <!-- Destination 4: Wildlife -->
+                <div class="destination-card">
+                    <div class="destination-image">
+                        <img src="assets/wildlife.jpg" alt="Wildlife Safari">
+                        <div class="destination-overlay">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                    </div>
+                    <div class="destination-content">
+                        <h3>Wildlife Safari</h3>
+                        <p>Encounter elephants, leopards, and exotic birds in their natural habitat</p>
+                        <div class="destination-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Yala, Udawalawe</span>
+                            <span><i class="fas fa-calendar"></i> 2-3 Days</span>
+                        </div>
+                        <button class="explore-btn">Explore</button>
+                    </div>
+                </div>
+
+                <!-- Destination 5: Waterfalls -->
+                <div class="destination-card">
+                    <div class="destination-image">
+                        <img src="assets/waterfalls.jpg" alt="Waterfall Adventures">
+                        <div class="destination-overlay">
+                            <i class="fas fa-water"></i>
+                        </div>
+                    </div>
+                    <div class="destination-content">
+                        <h3>Waterfall Adventures</h3>
+                        <p>Trek through lush greenery to discover cascading waterfalls and hidden pools</p>
+                        <div class="destination-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Ruwanwella, Kithulgala</span>
+                            <span><i class="fas fa-calendar"></i> 2-4 Days</span>
+                        </div>
+                        <button class="explore-btn">Explore</button>
+                    </div>
+                </div>
+
+                <!-- Destination 6: Scenic Trains -->
+                <div class="destination-card">
+                    <div class="destination-image">
+                        <img src="assets/trains.jpg" alt="Scenic Train Journeys">
+                        <div class="destination-overlay">
+                            <i class="fas fa-train"></i>
+                        </div>
+                    </div>
+                    <div class="destination-content">
+                        <h3>Scenic Train Journeys</h3>
+                        <p>Experience iconic train rides through verdant valleys and colonial-era stations</p>
+                        <div class="destination-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Central Line, Coastal Line</span>
+                            <span><i class="fas fa-calendar"></i> Full Day</span>
+                        </div>
+                        <button class="explore-btn">Explore</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tour Packages Section -->
+    <section id="packages" class="packages">
+        <div class="container">
+            <h2 class="section-title">Our Tour Packages</h2>
+            <p class="section-subtitle">Curated experiences for every traveler</p>
+
+            <div class="packages-grid">
+                <!-- Package 1 -->
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>Classic Sri Lanka</h3>
+                        <div class="package-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(245 reviews)</span>
+                        </div>
+                    </div>
+                    <div class="package-price">
+                        <span class="currency">$</span>
+                        <span class="amount">1,299</span>
+                        <span class="duration">per person</span>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> 7 Days / 6 Nights</li>
+                        <li><i class="fas fa-check"></i> Accommodation (4-star)</li>
+                        <li><i class="fas fa-check"></i> Guided Tours</li>
+                        <li><i class="fas fa-check"></i> Meals Included</li>
+                        <li><i class="fas fa-check"></i> Transportation</li>
+                        <li><i class="fas fa-check"></i> Travel Insurance</li>
+                    </ul>
+                    <button class="book-package-btn">Book Now</button>
+                </div>
+
+                <!-- Package 2 -->
+                <div class="package-card featured">
+                    <div class="package-badge">Most Popular</div>
+                    <div class="package-header">
+                        <h3>Ultimate Explorer</h3>
+                        <div class="package-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(389 reviews)</span>
+                        </div>
+                    </div>
+                    <div class="package-price">
+                        <span class="currency">$</span>
+                        <span class="amount">1,899</span>
+                        <span class="duration">per person</span>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> 10 Days / 9 Nights</li>
+                        <li><i class="fas fa-check"></i> Luxury Accommodation</li>
+                        <li><i class="fas fa-check"></i> Expert-led Tours</li>
+                        <li><i class="fas fa-check"></i> All Meals & Activities</li>
+                        <li><i class="fas fa-check"></i> Private Transportation</li>
+                        <li><i class="fas fa-check"></i> Premium Insurance</li>
+                    </ul>
+                    <button class="book-package-btn">Book Now</button>
+                </div>
+
+                <!-- Package 3 -->
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>Adventure Seeker</h3>
+                        <div class="package-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(156 reviews)</span>
+                        </div>
+                    </div>
+                    <div class="package-price">
+                        <span class="currency">$</span>
+                        <span class="amount">1,599</span>
+                        <span class="duration">per person</span>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> 8 Days / 7 Nights</li>
+                        <li><i class="fas fa-check"></i> Adventure Activities</li>
+                        <li><i class="fas fa-check"></i> Hiking & Trekking</li>
+                        <li><i class="fas fa-check"></i> Water Sports</li>
+                        <li><i class="fas fa-check"></i> Eco-lodges</li>
+                        <li><i class="fas fa-check"></i> Adventure Insurance</li>
+                    </ul>
+                    <button class="book-package-btn">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us">
+        <div class="container">
+            <h2 class="section-title">Why Choose Thambapanni Trails</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Expert Local Guides</h3>
+                    <p>Our knowledgeable guides bring Sri Lanka's stories to life with authentic insights</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Safe & Secure</h3>
+                    <p>Your safety is our priority with comprehensive travel insurance and support</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Eco-Friendly</h3>
+                    <p>We promote sustainable tourism that respects nature and local communities</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Personalized Service</h3>
+                    <p>Customize your journey with flexible itineraries tailored to your preferences</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Round-the-clock customer support to assist you before, during, and after your trip</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>Award-Winning</h3>
+                    <p>Recognized for excellence in travel experiences and customer satisfaction</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Travelers Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"An absolutely unforgettable experience! The guides were knowledgeable, the itinerary was perfectly balanced, and every moment felt magical. Sri Lanka's beauty left us speechless."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="assets/avatar1.jpg" alt="Sarah Johnson">
+                        </div>
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>United States</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"The custom trip planning was exceptional. Thambapanni Trails understood exactly what we wanted and created a journey that exceeded all our expectations. Highly recommended!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="assets/avatar2.jpg" alt="Michael Chen">
+                        </div>
+                        <div class="author-info">
+                            <h4>Michael Chen</h4>
+                            <p>Singapore</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"From the moment we arrived until the last sunset, everything was perfectly organized. The wildlife safari was incredible, and the team's passion for Sri Lanka was truly inspiring."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="assets/avatar3.jpg" alt="Emma White">
+                        </div>
+                        <div class="author-info">
+                            <h4>Emma White</h4>
+                            <p>United Kingdom</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Thambapanni Trails</h2>
+                    <p>Thambapanni Trails is your gateway to experiencing the authentic soul of Sri Lanka. Founded by passionate travel enthusiasts, we specialize in creating unforgettable journeys that showcase the island's breathtaking natural landscapes, rich cultural heritage, and hidden treasures.</p>
+                    <p>With over a decade of experience, our expert team curates personalized experiences that go beyond typical tourism. We believe in sustainable, respectful travel that benefits local communities and preserves Sri Lanka's incredible natural environment.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>10K+</h3>
+                            <p>Happy Travelers</p>
+                        </div>
+                        <div class="stat">
+                            <h3>50+</h3>
+                            <p>Destinations</p>
+                        </div>
+                        <div class="stat">
+                            <h3>100%</h3>
+                            <p>Satisfaction</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="assets/about-image.jpg" alt="Thambapanni Trails Team">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Address</h3>
+                            <p>123 Safari Road, Colombo 3<br>Sri Lanka</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+94 (0) 11 234 5678</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@thambapannitrails.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Hours</h3>
+                            <p>Mon - Sun: 9:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="tel" placeholder="Your Phone">
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+        <div class="container">
+            <h2>Ready to Discover Sri Lanka?</h2>
+            <p>Start your adventure today and create memories that will last a lifetime</p>
+            <div class="banner-buttons">
+                <button class="cta-btn primary-btn" data-action="book">Book Your Adventure</button>
+                <button class="cta-btn secondary-btn" data-action="custom">Plan Your Custom Trip</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Thambapanni Trails</h3>
+                    <p>Discover the soul of Sri Lanka with our curated travel experiences.</p>
+                    <div class="social-links">
+                        <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#destinations">Destinations</a></li>
+                        <li><a href="#packages">Packages</a></li>
+                        <li><a href="#about">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="#">Travel Guide</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to receive travel tips and exclusive offers</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email" required>
+                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Thambapanni Trails. All rights reserved. | <a href="#">Terms & Conditions</a> | <a href="#">Privacy Policy</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modals -->
+    <div id="bookModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Book Your Adventure</h2>
+            <form class="booking-form">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <select required>
+                    <option value="">Select Package</option>
+                    <option value="classic">Classic Sri Lanka</option>
+                    <option value="ultimate">Ultimate Explorer</option>
+                    <option value="adventure">Adventure Seeker</option>
+                </select>
+                <input type="date" placeholder="Preferred Date" required>
+                <input type="number" placeholder="Number of Travelers" min="1" required>
+                <textarea placeholder="Special Requests" rows="4"></textarea>
+                <button type="submit" class="submit-btn">Confirm Booking</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="customModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Plan Your Custom Trip</h2>
+            <form class="booking-form">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <input type="text" placeholder="Trip Duration (e.g., 7 days)" required>
+                <select required>
+                    <option value="">Preferred Travel Style</option>
+                    <option value="adventure">Adventure & Hiking</option>
+                    <option value="cultural">Cultural & History</option>
+                    <option value="beach">Beach & Relaxation</option>
+                    <option value="wildlife">Wildlife & Nature</option>
+                    <option value="mixed">Mixed Experience</option>
+                </select>
+                <textarea placeholder="Describe your dream trip..." rows="5" required></textarea>
+                <button type="submit" class="submit-btn">Request Custom Plan</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
